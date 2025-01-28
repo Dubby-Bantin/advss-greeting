@@ -9,7 +9,7 @@ const Home = () => {
         <div className="z-10 flex flex-col items-center text-white">
           <div className="flex items-center gap-10">
             <Image src="/images/logo.png" alt="alt" width={100} height={100} />
-            <h1 className="font-bold text-8xl">ADVSS USA</h1>
+            <h1 className="font-bold text-xl md:text-8xl">ADVSS USA</h1>
           </div>
           <p className="font-semibold text-2xl">
             Elite Hospitality & Security Services
@@ -32,7 +32,7 @@ const Home = () => {
 
 const FirstSection = () => {
   return (
-    <div className="flex lg:flex-row flex-col items-center gap-7 bg-gradient-to-r from-white to-[#f5f5f5] px-6 lg:px-10 py-10 lg:py-20">
+    <div className="flex lg:flex-row md:flex-col flex-col-reverse items-center gap-7 bg-gradient-to-r from-white to-[#f5f5f5] px-6 lg:px-10 py-10 lg:py-20">
       <div className="flex flex-col gap-8 p-5 md:p-8 lg:p-10 w-full lg:w-1/2">
         <div className="flex flex-col mb-6">
           <div className="font-semibold text-3xl">
@@ -110,7 +110,7 @@ const SecondSection = () => {
 };
 const ThirdSection = () => {
   return (
-    <div className="flex lg:flex-row flex-col items-center gap-7 bg-gradient-to-r from-white to-[#f5f5f5] px-6 lg:px-10 py-10 lg:py-20">
+    <div className="flex lg:flex-row md:flex-col flex-col-reverse items-center gap-7 bg-gradient-to-r from-white to-[#f5f5f5] px-6 lg:px-10 py-10 lg:py-20">
       <div className="flex flex-col gap-6 p-5 md:p-8 lg:p-10 w-full lg:w-1/2">
         <div className="flex flex-col">
           <span className="mr-2 font-semibold text-3xl text-section">Team</span>
@@ -327,7 +327,7 @@ const SixthSection = () => {
             <h3 className="mb-4 font-semibold text-[#3b82f6] text-2xl">
               {title}
             </h3>
-            <ul className="grid grid-cols-3 text-lg list-disc">
+            <ul className="grid md:grid-cols-3 text-lg list-disc">
               {topics.map((topic, i) => (
                 <li className="" key={i}>
                   {topic}
@@ -477,3 +477,5 @@ const Footer = () => (
   </div>
 );
 export default Home;
+
+// additional officer to review in 30 days 
