@@ -11,7 +11,7 @@ const Home = () => {
             <Image src="/images/logo.png" alt="alt" width={100} height={100} />
             <h1 className="font-bold text-xl md:text-8xl">ADVSS USA</h1>
           </div>
-          <p className="font-semibold text-2xl">
+          <p className="font-semibold text-2xl text-center">
             Elite Hospitality & Security Services
           </p>
         </div>
