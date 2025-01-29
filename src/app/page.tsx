@@ -477,5 +477,3 @@ const Footer = () => (
   </div>
 );
 export default Home;
-
-// additional officer to review in 30 days 
